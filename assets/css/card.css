@@ -98,6 +98,9 @@ img {
     -webkit-transition: 250ms;
     transition: 250ms;
     text-align: center;
+    border-radius: var(--br);
+    box-shadow: rgba(0, 0, 0, 0.16) 2px 2px 3px;
+    /* border: solid pink; */
 }
 
 .front .thumbnail {
@@ -118,7 +121,7 @@ img {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 0.3em;
+    /* margin-bottom: 14em; */
 }
 
 .front .viewers {
@@ -134,7 +137,7 @@ img {
     content: "\f007";
     color: rgba(255, 255, 255, 0.75);
     font-size: 0.75em;
-    margin-right: 0.5em;
+    /* margin-right: 3.5em; */
 }
 
 .front .streamers img {
@@ -224,6 +227,7 @@ img {
 .game:hover .front {
     /* -webkit-transform: translateY(-30%) scale(0.8); */
     transform: translateY(-18%) scale(0.8);
+    box-shadow: none;
 }
 
 .game:hover .front .name {
