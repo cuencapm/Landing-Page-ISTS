@@ -96,6 +96,7 @@ img {
 
 .front {
     -webkit-transition: 250ms;
+    height: 21.875em;
     transition: 250ms;
     text-align: center;
     border-radius: var(--br);
@@ -108,7 +109,7 @@ img {
 }
 
 .front .name {
-    margin: 0.75em 0;
+    margin: 1em auto;
 }
 
 .front .stats {
@@ -271,12 +272,11 @@ img {
 .game:hover .back .btn {
     cursor: pointer;
     border: 0;
+    color: var(--clr-light);
     background: var(--clr-secondary);
     border-radius: 100vw;
-    color: var(--clr-light);
     font-weight: bold;
-    margin-top: 20%;
-    margin-bottom: -5%;
+    margin-top: 55%;
     padding: 0.5em 1.5em;
 }
 
